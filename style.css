@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* reinitialisation */
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    font-family: poppins, sans sérif;
+}
+
+/* Formatage du logo */
+ul .logo {  
+    height: 40px;
+    width: 40px;
+    border-radius: 30px; 
+}
+span {
+    color: orange;
+    font-size: 15px;
+}
+
+/* Menu principal */
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+ul li p {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Les deux Boutons du menu */
+.first_button {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: orange;
+}
+
+.first_button a {
+    color: white;
+}
+
+.second_button a {
+    color: white;
+}
+.second_button {
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: orange;
+}
+
+/* Section principale */
+#main_section {
+    min-height: 600px;
+    width: 100%;
+    background-color: blue;
+}
+
+.first_div {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.first_div h1 {
+        font-family: poppins, sans-serif;
+        font-size: 50px;
+        padding-top: 20px ;
+        padding-bottom: 20px;
+}
+
+.first_div p {
+    margin-bottom: 40px;
+    font-family: poppins, sans-serif;
+}
+.main_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Les boites */
+.box {
+    height: 160px;
+    width: 160px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(43, 43, 235); 
+}
+
+/* Textes des boites */
+.box h2 {
+    color: orange;
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: poppins, sans-serif;
+}
+
+.box p {
+    color: white;
+    font-family: poppins, sans-serif;
+}
+
+/* Boutons pour main */
+.main_buttom {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+/* Formatage du bouton programme */
+.program_buttom button {
+    padding: 10px;
+    margin: 0 30px; 
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    background-color: orange;
+}
+
+.program_buttom a {
+    color: white;
+    font-family: poppins, sans-serif;
+}
+
+/* Formatage du bouton inscription */
+.inscripton_buttom button {
+    padding: 10px;
+    margin: 0 30px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.inscripton_buttom a {
+    color: white;
+    font-family: poppins, sans-serif;
+}
+
+.div_titleprogram h1 {
+    font-family: poppins, sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.div_titleprogram p {
+    font-family: poppins, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.first_box {
+    display: flex;
+    justify-content: center;
+}
+
+/* La boite d'onglerie */
+.onglerie {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.123);
+    border-radius: 10px;
+    box-shadow: 0px -3px 0 orange;
+    margin: 0 15px;
+}
+
+.image_onglerie {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.onglerie h1 {
+    text-align: center;
+    color: blue;
+}
+
+.onglerie p {
+    text-align: center;
+}
+
+.buttom_ongleriea {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.buttom1 p {
+   background-color: blue;
+   border-radius: 20px;
+   padding: 10px;
+   color: white;
+   font-size: 12px;
+}
+
+.buttom2 p {
+   background-color: blue;
+   border-radius: 20px;
+   padding: 10px;
+   color: white;
+   font-size: 12px;
+}
+
+.buttom3 {
+    display: flex;
+    justify-content: center;
+}
+.buttom3 p{
+    width: 40%;
+    background-color: blue;
+    padding: 8px;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.buttom4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buttom4 p{
+    width: 40%;
+    background-color: blue;
+    padding: 8px;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+/* La boite maquillage */
+.maquillage {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.123);
+    border-radius: 10px;
+    box-shadow: 0px -3px 0 orange;
+    margin: 0 15px;
+}
+
+.image_maquillage {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.maquillage h1 {
+    text-align: center;
+    color: blue;
+}
+
+.maquillage p {
+    text-align: center;
+}
+
+.buttom_maquillagea {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttom5 p {
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.buttom6 p {
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.buttom7 p {
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.buttom_maquillageb {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.buttom8 p {
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.tresse {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.123);
+    border-radius: 10px;
+    box-shadow: 0px -3px 0 orange;
+    margin: 0 15px;
+}
+
+.image_tresse {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.tresse h1 {
+    text-align: center;
+    color: blue;
+}
+
+.tresse p {
+    text-align: center;
+}
+
+.buttom_tressea {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.buttom9 p {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.buttom10 p {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.buttom11 p {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+ 
+
+.buttom_tresseb {
+    display: flex;justify-content: center;
+}
+.buttom12 p {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
